@@ -2,7 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  basePath: "https://github.com/Igirid/atlas"
+  output: "export", // <=== enables static exports
+  reactStrictMode: true,
+  basePath: "/atlas"
 };
 
 export default nextConfig;
