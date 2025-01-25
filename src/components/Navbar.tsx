@@ -15,7 +15,7 @@ export default function Navbar() {
         <Grip className="w-20 h-6 text-gray-700" />
         {/* <h2 className="text-xl font-semibold">Atlas</h2> */}
         <Image
-            src="/atlas.png"
+            src="/atlas/atlas.png"
             alt="Logo"
             className="w-auto h-auto rounded-lg border"
           />
