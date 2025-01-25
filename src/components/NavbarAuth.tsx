@@ -5,6 +5,7 @@ import {
   ChevronDown,
   Grip,
 } from "lucide-react";
+import Image from "next/image";
 
 export default function NavbarAuth() {
   return (
@@ -13,8 +14,8 @@ export default function NavbarAuth() {
         <ArrowLeft size={20} />
         {/* <h2 className="text-xl font-semibold">Atlas</h2>
          */}
-          <img
-            src="/atlas.png"
+          <Image
+            src="/atlas/atlas.png"
             alt="Logo"
             className="w-auto h-auto rounded-lg border"
           />

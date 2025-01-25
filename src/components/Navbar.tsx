@@ -6,6 +6,7 @@ import {
   MessageSquareText,
   User,
 } from "lucide-react";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -13,8 +14,8 @@ export default function Navbar() {
       <div className="flex gap-4 items-center">
         <Grip className="w-20 h-6 text-gray-700" />
         {/* <h2 className="text-xl font-semibold">Atlas</h2> */}
-        <img
-            src="/atlas.png"
+        <Image
+            src="/atlas/atlas.png"
             alt="Logo"
             className="w-auto h-auto rounded-lg border"
           />

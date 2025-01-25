@@ -25,6 +25,7 @@ import {
 import { useState } from "react";
 import { Tab } from "@headlessui/react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const supplierInfo = {
   name: "Fidson Healthcare",
@@ -32,7 +33,7 @@ const supplierInfo = {
   contactEmail: "musa@example.com",
   contactPhone: "+234 801 234 5678",
   bankName: "First Bank Plc",
-  logo: "/supplier-logo.png", // Replace with actual logo path
+  logo: "/atlas/supplier-logo.png", // Replace with actual logo path
 };
 
 const summaryMetrics = [
@@ -173,7 +174,7 @@ export default function SupplierDashboard() {
 
         {/* Supplier Info */}
         <div className="mx-6 mb-6 bg-transparent py-4 flex justify-start gap-16 text-blue-950 w-2/3 items-center">
-          <img
+          <Image
             src={supplierInfo.logo}
             alt="Logo"
             className="w-12 h-12 rounded-lg border"
