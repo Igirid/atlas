@@ -15,7 +15,7 @@ export default function NavbarAuth() {
         {/* <h2 className="text-xl font-semibold">Atlas</h2>
          */}
           <Image
-            src="/atlas/atlas.png"
+            src="/atlas.png"
             alt="Logo"
             className="w-auto h-auto rounded-lg border"
           />

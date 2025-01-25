@@ -33,7 +33,7 @@ const supplierInfo = {
   contactEmail: "musa@example.com",
   contactPhone: "+234 801 234 5678",
   bankName: "First Bank Plc",
-  logo: "/atlas/supplier-logo.png", // Replace with actual logo path
+  logo: "/supplier-logo.png", // Replace with actual logo path
 };
 
 const summaryMetrics = [
